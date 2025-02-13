@@ -721,3 +721,108 @@ margin-bottom: 12px;
     text-align: left;
     text-decoration-line: underline;
 }
+
+ 
+.support-section-container 
+{
+    background: url('/assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+   
+    
+}
+.support-section-container 
+{
+   
+    width: 1140px;
+    height: 313px;
+border-radius: 16px;
+
+ 
+margin: 0 auto;
+margin-top: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ 
+
+
+}
+
+.support-section-container .support1 h2{
+    width: 292px;
+height: 36px;
+
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+text-align: right;
+margin: 0 auto;    background-blend-mode: overlay;
+  
+
+}
+.support-section-container .support1 p{
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin: 0 auto;
+text-align: center;
+margin-top: 16px;
+opacity: 0.7;
+ 
+}
+.support-section-container .support2 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: self-end;  
+}
+.support-section-container .support2 .input1{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;  
+height: 57px;
+ 
+}
+.support-section-container .support2 ::placeholder
+{
+    width: 313px;  
+height: 19px;
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding-left: 20px;
+}
+.support-section-container .support2  .input2
+{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;   
+    border: none;
+    width: 120px;
+    height: 19px;
+margin: 0 auto;
+margin-left: 12px;
+
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.support-section-container .support2 .input2{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+}
